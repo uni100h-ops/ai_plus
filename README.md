@@ -25,8 +25,9 @@ For image generation and editing, AI+ uses Muse Spark 1.3 to clarify the user's 
 1. Open the demo: https://metaquant-forge.onrender.com/login
 2. Enter the password provided in the project submission.
 3. Select a model.
-   
-   
+
+   <img width="404" height="177" alt="image" src="https://github.com/user-attachments/assets/8c35c75f-c64e-4fd0-8193-1afffa499703" />
+
 4. Try a practical complex spreadsheet example. Click “View data” to inspect the CSV file.
 
 5. Review the task in the “Question or problem” section.
