@@ -1,0 +1,9 @@
+.env
+.env.*
+.modal.toml
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*Zone.Identifier
+.DS_Store

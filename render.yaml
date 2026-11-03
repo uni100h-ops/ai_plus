@@ -1,0 +1,46 @@
+services:
+  - type: web
+    name: metaquant-forge
+    runtime: python
+    repo: https://github.com/uni100h-ops/ai_plus
+    branch: main
+    plan: 0.5c-512mb
+    numInstances: 1
+    buildCommand: pip install -r requirements.txt && python -m modal deploy modal_app.py --env main
+    startCommand: uvicorn server.main:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.11
+      - key: COOKIE_SECURE
+        value: "1"
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: MODAL_TOKEN_ID
+        sync: false
+      - key: MODAL_TOKEN_SECRET
+        sync: false
+      - key: META_API_KEY
+        sync: false
+      # Separate Meta Model API credential for Wonder, Spark 1.3 and Image.
+      # Existing Dashboard-managed services add this manually when ready.
+      - key: MODEL_API_KEY
+        sync: false
+      - key: META_API_BASE_URL
+        value: https://api.fireworks.ai/inference/v1
+      - key: META_MODEL
+        value: accounts/fireworks/models/muse-spark-open
+      - key: MODAL_APP_NAME
+        value: metaquant-problems-ai
+      - key: MODAL_ENVIRONMENT
+        value: main
+      - key: META_REASONING_EFFORT
+        value: low
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"
+      - key: OMP_NUM_THREADS
+        value: "1"
+      - key: APP_PASSWORD
+        sync: false
+      - key: AI_PLUS_API_KEY
+        generateValue: true
