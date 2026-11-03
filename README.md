@@ -57,7 +57,7 @@ For image generation and editing, AI+ uses Muse Spark 1.3 to clarify the user's 
 <details>
 <summary><strong>Tests Results</strong></summary>
 
-[Download Tests_results_images.zip](Tests_results_images.zip?raw=true)
+[Download Tests_results_images.zip](https://raw.githubusercontent.com/uni100h-ops/ai_plus/main/Tests_results_images.zip)
 
 | **Model** | **Test case** | **AI time** | **AI+ time** | **Faster AI** | **Better AI solution** | **Solution quality** | **Failures** |
 |---|---|---:|---:|---|---|---|---|
