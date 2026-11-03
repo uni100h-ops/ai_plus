@@ -39,7 +39,6 @@ For image generation and editing, AI+ uses Muse Spark 1.3 to clarify the user's 
 
 9. Click “Download csv solution” below each result to download its CSV file.
 
-![AI+ comparison interface](docs/images/AI_plus_interface.png)
 
 </details>
 
