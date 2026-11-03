@@ -29,17 +29,28 @@ For image generation and editing, AI+ uses Muse Spark 1.3 to clarify the user's 
    <img width="404" height="177" alt="image" src="https://github.com/user-attachments/assets/8c35c75f-c64e-4fd0-8193-1afffa499703" />
 
 4. Try a practical complex spreadsheet example. Click “View data” to inspect the CSV file.
+   
+<img width="374" height="269" alt="image" src="https://github.com/user-attachments/assets/c0c27862-b7a5-4f43-8e87-f755906e3d3b" />
 
-5. Review the task in the “Question or problem” section.
+6. Review the task in the “Question or problem” section.
 
-6. Click “Interpret request”.
+<img width="430" height="500" alt="image" src="https://github.com/user-attachments/assets/fff171fb-7868-4303-9366-4685e19eb607" />
 
-7. Click “Run” to start AI and AI+ simultaneously. Each result appears as soon as that path finishes.
+7. Click “Interpret request”.
 
-8. Click “Explain Results with AI” to analyze and compare the AI and AI+ results.
+<img width="183" height="225" alt="image" src="https://github.com/user-attachments/assets/cdff1186-9890-465e-b367-d77c2cf5609c" />
 
-9. Click “Download csv solution” below each result to download its CSV file.
+8. Click “Run” to start AI and AI+ simultaneously. Each result appears as soon as that path finishes.
 
+<img width="314" height="54" alt="image" src="https://github.com/user-attachments/assets/9441d1a5-a953-4b97-ae2d-49e10c5c0ebb" />
+
+9. Click “Explain Results with AI” to analyze and compare the AI and AI+ results.
+
+<img width="534" height="320" alt="image" src="https://github.com/user-attachments/assets/cadf31f1-beed-49dc-ba01-f82ae9ace067" />
+
+10. Click “Download csv solution” below each result to download its CSV file.
+
+<img width="743" height="234" alt="image" src="https://github.com/user-attachments/assets/15ce8fae-c50c-4c38-bb56-4daffa6f31bc" />
 
 </details>
 
